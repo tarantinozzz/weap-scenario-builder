@@ -1,0 +1,23 @@
+Branch,Variable,Note,UI,Type,Choices,default,Header,Branch_2,Labels,Trigger_Branch,Trigger_When,Group,Name_Rule,Name_Param,Name_Sep
+ExampleModel\Parameter_001,ExampleVariable_001,Synthetic example only. No operational information.,TRUE,dropdown,"1,2,3",1,Example settings,Example parameter 001,,,,,raw,,_
+ExampleModel\Parameter_002,ExampleVariable_002,Synthetic example only. No operational information.,TRUE,dropdown,"Example001,Example002,Example003",Example001,Example settings,Example parameter 002,,,,,lookup,,_
+ExampleModel\Parameter_003,ExampleVariable_003,Synthetic example only. No operational information.,TRUE,,,1,Example settings,Example parameter 003,,,,,math,*2|P003,_
+ExampleModel\Parameter_004,ExampleVariable_004,Synthetic example only. No operational information.,TRUE,binary,,0,Example settings,Example parameter 004,,,,,binary,P004,_
+ExampleModel\Parameter_005,ExampleVariable_005,Synthetic example only. No operational information.,TRUE,binary,,0,Example settings,Example parameter 005,,,,,binary,P005,_
+ExampleModel\Parameter_006,ExampleVariable_006,Synthetic example only. No operational information.,TRUE,binary,,0,Example settings,Example parameter 006,,,,,binary,P006,_
+ExampleModel\Parameter_007,ExampleVariable_007,Synthetic example only. No operational information.,TRUE,binary,,0,Example settings,Example parameter 007,,,,,binary,P007,_
+ExampleModel\Parameter_008,ExampleVariable_008,Synthetic example only. No operational information.,TRUE,,,1,Example settings,Example parameter 008,,ExampleModel\Parameter_020,NOT0,,math,*2|P008,_
+ExampleModel\Parameter_009,ExampleVariable_009,Synthetic example only. No operational information.,TRUE,dropdown,"1,2,3",1,Example settings,Example parameter 009,,,,,suffix,P009,_
+ExampleModel\Parameter_010,ExampleVariable_010,Synthetic example only. No operational information.,TRUE,checkbox_group,,1,Example settings,Example parameter 010,,,,ExampleGroup_001,demand,P010,_
+ExampleModel\Parameter_011,ExampleVariable_011,Synthetic example only. No operational information.,TRUE,checkbox_group,,0,Example settings,Example parameter 011,,,,ExampleGroup_001,,P011,
+ExampleModel\Parameter_012,ExampleVariable_012,Synthetic example only. No operational information.,TRUE,checkbox_group,,0,Example settings,Example parameter 012,,,,ExampleGroup_001,,P012,
+ExampleModel\Parameter_013,ExampleVariable_013,Synthetic example only. No operational information.,TRUE,checkbox_group,,0,Example settings,Example parameter 013,,,,ExampleGroup_001,,P013,
+ExampleModel\Parameter_014,ExampleVariable_014,Synthetic example only. No operational information.,TRUE,radio_grid,"1,2,3",1,Example settings,Example parameter 014,"Option 1,Option 2,Option 3",,,,gcm,P014,_
+ExampleModel\Parameter_015,ExampleVariable_015,Synthetic example only. No operational information.,TRUE,binary,,0,Example settings,Example parameter 015,,,,,changed,P015,_
+ExampleModel\Parameter_016,ExampleVariable_016,Synthetic example only. No operational information.,TRUE,binary,,0,Example settings,Example parameter 016,,,,,changed,P016,_
+ExampleModel\Parameter_017,ExampleVariable_017,Synthetic example only. No operational information.,TRUE,binary,,0,Example settings,Example parameter 017,,,,,changed,P017,_
+ExampleModel\Parameter_018,ExampleVariable_018,Synthetic example only. No operational information.,TRUE,binary,,0,Example settings,Example parameter 018,,,,,changed,P018,_
+ExampleModel\Parameter_019,ExampleVariable_019,Synthetic example only. No operational information.,TRUE,binary,,0,Example settings,Example parameter 019,,,,,changed,P019,_
+ExampleModel\Parameter_020,ExampleVariable_020,Synthetic example only. No operational information.,TRUE,dropdown,"1,2,3",1,Example settings,Example parameter 020,,,,,,,
+ExampleModel\Parameter_021,ExampleVariable_021,Synthetic example only. No operational information.,FALSE,,,1,Example settings,Example parameter 021,,,,,,,
+ExampleModel\Parameter_022,ExampleVariable_022,Synthetic example only. No operational information.,FALSE,,,1,Example settings,Example parameter 022,,,,,,,
