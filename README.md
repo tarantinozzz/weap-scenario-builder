@@ -51,8 +51,10 @@ All branch paths use a flat ExampleModel path with neutral parameter IDs. Branch
 
 The schema and application rule identifiers are retained for compatibility: Branch, Variable, Note, UI, Type, Choices, default, Header, Branch_2, Labels, Trigger_Branch, Trigger_When, Group, Name_Rule, Name_Param and Name_Sep. Widget types and naming rule identifiers such as lookup, math and demand are program controls, not actual facility names. The supplied rows preserve the source widget/rule pattern and dependency relationships to demonstrate the application. This is a synthetic configuration for demonstration, not an assurance that every structural detail of the original application is concealed. No original-to-example mapping is included.
 
-## Limits and public upload
+## Public demonstration version
 
-No R, browser, VBS or WEAP execution was performed during preparation. File-level checks cover CSV references, generic naming, source-name removal and package contents only. Existing issues remain: the VBS loop assumes an added scenario; inputs and VBS string escaping need stronger validation; repeated run labels can overwrite files; closing the app without Run WEAP is not guarded. Branch-plus-variable keys and scenario names must be unique. The application changes R's working directory after generation.
+The original application is used in an internal WEAP modeling workflow. This public version presents its interface, scenario configuration logic, naming engine, and automation script generation.
 
-Upload only the files in this prepared package. Original inputs, original code/Word files and previously prepared unsanitized packages must not be added. Parameter exports and VBS files can contain whatever private model information a user later enters. Do not upload those generated files. Confirm your authority to release the application code. No reuse license has been selected.
+To protect operational information, actual model branches, variable names, configuration values, and naming conventions have been replaced with synthetic examples. The operational WEAP model and its datasets are not included.
+
+Executing the generated VBS files requires a local WEAP installation and a model with matching branches, variables, scenarios, and output overviews. The example configuration is not intended to run unchanged against an operational model.
